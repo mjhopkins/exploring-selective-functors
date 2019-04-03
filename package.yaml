@@ -1,0 +1,28 @@
+name:                exploring-selective-functors
+version:             0.1.0.0
+github:              "mjhopkins/exploring-selective-functors"
+license:             BSD3
+author:              "Mark Hopkins"
+maintainer:          "markjohnhopkins@gmail.com"
+copyright:           "Mark Hopkins"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Experimental
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/mjhopkins/exploring-selective-functors#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src
+  ghc-options:
+  - -Wall
